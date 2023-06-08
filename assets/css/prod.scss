@@ -24,3 +24,22 @@
   .logo {
     width: 200px;
   }
+  .hero {
+    width: 100%;
+    padding: 0;
+    background: var(--color-black);
+    background: url(../img/hero-bg.png) center center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 60px 0;
+    .carousel {
+      position: relative;
+  }
+}
+
+
